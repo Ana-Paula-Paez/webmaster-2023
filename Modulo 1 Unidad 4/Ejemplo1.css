@@ -24,3 +24,37 @@ p{
 .destacado{
     color:rgb(255, 139, 201);
 }
+
+.content {
+    
+   
+    background: linear-gradient(to bottom right, #ffcccc, #ff99cc);
+        
+       
+    border-radius: 10px;
+        
+       
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        
+       
+    max-width: 600px;
+        
+       
+    margin: 20px auto;
+        
+       
+    padding: 20px;
+        
+       
+    text-align: center;
+        
+       
+    color: #333;
+    }
+    
+    p {
+        
+       
+    margin: 0;
+    }
+
