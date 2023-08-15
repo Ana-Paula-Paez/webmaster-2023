@@ -1,0 +1,19 @@
+.contenedor{
+	background-color: rgb(255, 255, 255);
+	height: 100px;
+	/*display: inline-flex;*/
+	flex-wrap: wrap;
+	/*align-content: flex-start;*/
+	/*align-content: flex-end;*/
+	align-content: center;
+	/*align-content: stretch;*/
+	/*align-content: space-around;*/
+	/*align-content: space-between;*/
+}
+
+.item{
+	background-color: #ccc;
+	width: 5%;
+	margin: 0%;
+	font-size: 30px;
+}

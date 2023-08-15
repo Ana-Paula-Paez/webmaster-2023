@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #c5c5c5;
+    color: #ff50b6;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /* Estilos de descuentos */
+  .descuentos {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ff60b8;
+    color: #000000;
+  }
+  
+  .descuentos a {
+    background-color: #ffffff;
+    color: #ff3f89;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .descuentos a:hover {
+    background-color: #cacaca;
+  }
+  
+  /* Estilos de categorías */
+  .categorias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .categoria {
+    border: 1px solid #ff5cc9;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(180, 180, 180, 0.1);
+  }
+  
+  .categoria img {
+    max-width: 100%;
+  }
+  
+  .categoria a {
+    background-color: #e4e4e4;
+    color: #ff6dce;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .categoria a:hover {
+    background-color: #bebebe;
+  }
+  
+  /* Estilos de pie de página */
+  footer {
+    background-color: #bdbbbc;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+  }
