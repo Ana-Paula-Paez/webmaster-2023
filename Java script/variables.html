@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Determinar Medio de Transporte</title>
+    <script>
+        function determinarMedio() {
+            const distancia = parseFloat(document.getElementById("distancia").value);
+            let resultado = "";
+
+            if (distancia >= 0 && distancia <= 1000) {
+                resultado = "pie";
+            } else if (distancia > 1000 && distancia <= 10000) {
+                resultado = "bicicleta";
+            } else if (distancia > 10000 && distancia <= 30000) {
+                resultado = "colectivo";
+            } else if (distancia > 30000 && distancia <= 100000) {
+                resultado = "auto";
+            } else if (distancia > 100000 && distancia <= 900000) {
+                resultado = "avión";
+            }
+
+            document.getElementById("resultado").innerHTML = "Medio de transporte apropiado: " + resultado;
+        }
+    </script>
+</head>
+<body>
+    <h1>Determinar Medio de Transporte</h1>
+    <label for="distancia">Ingresa la distancia en metros:</label>
+    <input type="number" id="distancia" min="0" step="1">
+    <button onclick="determinarMedio()">Determinar</button>
+    <p id="resultado"></p>
+</body>
+</html>
